@@ -51,15 +51,11 @@ a {
 }
 
 .logo-icon {
-    background-color: #a4c639;
-    color: var(--dark-green);
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    flex-shrink: 0;
+    display: block;
 }
 
 .logo-text {
